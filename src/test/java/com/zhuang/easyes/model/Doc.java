@@ -10,8 +10,9 @@ import org.dromara.easyes.annotation.rely.FieldType;
 @IndexName("t_doc")
 public class Doc {
     private String id;
-    private String deviceId;
+    @IndexField(fieldType = FieldType.KEYWORD)
     private String messageId;
+    private String deviceId;
     @IndexField(fieldType = FieldType.TEXT,analyzer = Analyzer.IK_SMART)
     private String content;
 }
