@@ -1,6 +1,6 @@
 package com.zhuang.easyes.test;
 
-import com.zhuang.easyes.MyEasyEsApplicationDoc;
+import com.zhuang.easyes.MyEasyEsApplicationTest;
 import com.zhuang.easyes.mapper.DocMapper;
 import com.zhuang.easyes.model.Doc;
 import org.dromara.easyes.core.conditions.select.LambdaEsQueryWrapper;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class DocMapperTest extends MyEasyEsApplicationDoc {
+public class TestMapperTest extends MyEasyEsApplicationTest {
 
     @Autowired
     private DocMapper docMapper;
