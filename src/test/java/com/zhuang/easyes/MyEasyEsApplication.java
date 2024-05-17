@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@EsMapperScan("")
+@EsMapperScan("com.zhuang.easyes.mapper")
 public class MyEasyEsApplication {
 
     public static void main(String[] args) {
