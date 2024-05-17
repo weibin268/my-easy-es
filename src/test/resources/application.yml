@@ -1,0 +1,12 @@
+server:
+  port: 8808
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: my-mybatis-plus
+
+logging:
+  level:
+    com.zhuang.easyes: debug
