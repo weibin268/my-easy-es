@@ -12,6 +12,7 @@ public class Doc {
     private String id;
     @IndexField(fieldType = FieldType.KEYWORD)
     private String messageId;
+    @IndexField(fieldType = FieldType.KEYWORD)
     private String deviceId;
     @IndexField(fieldType = FieldType.TEXT,analyzer = Analyzer.IK_SMART)
     private String content;
